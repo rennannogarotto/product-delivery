@@ -46,7 +46,7 @@ Como iniciar a aplicação
 2) Iniciar o mongo com o comando mongod.
 	- Talvez seja necessário criar manualmente o diretório C:\data\db.
 	- Talvez seja necessário adicionar o diretório de instalação do Mongo no path do SO.
-3) Realizar o "git clone" do repositório: 
+3) Realizar o "git clone" do repositório: https://github.com/rennannogarotto/product-delivery.git
 4) Instalar as dependências do projeto com o comando "npm install" executado no diretório
 raiz da aplicação.
 5) Executar o comando "node server" no diretório raiz da aplicação.
