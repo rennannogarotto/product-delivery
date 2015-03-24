@@ -1,0 +1,36 @@
+{
+    "validation": {
+        "routes_schema_save_duplicated": "You have already registered another route with the same origin-destination.",
+        "routes_schema_update_duplicated": "You have already registered another route with the same origin-destination.",
+        "storage_objectId_invalid": "Invalid ObjectId.",
+        "storage_findOneByCriteria_null": "Criteria can not be null.",
+        "not_implemented": "Service not implemented.",
+        "routes_findById_error": "Error finding route by id.",
+        "routes_not_found": "Routes not found.",
+        "routes_invalid_parameters": "Invalid parameters.",
+        "routes_findAll_error": "Error retrieving all routes.",
+        "routes_save_error": "Error saving route.",
+        "routes_update_error": "Error updating route.",
+        "routes_delete_error": "Erro deleting route.",
+        "routes_endpoint_invalid_id_param": "Invalid id parameter.",
+        "routes_endpoint_findById_error": "Error finding route by id.",
+        "routes_endpoint_not_found": "Routes not found.",
+        "routes_endpoint_cost_not_defined": "Impossible define the cost btween these two points.",
+        "routes_endpoint_deliveryLowerCost_error": "Error executing deliveryLowerCost method.",
+        "routes_endpoint_invalid_origin_destination_params": "Invalid origin or destination parameters.",
+        "http_utils_invalid_request_parameter_origin": "Invalid origin parameter.",
+        "http_utils_invalid_request_parameter_destination": "Invalid origin parameter.",
+        "http_utils_invalid_request_parameter_id": "Invalid origin parameter.",
+        "http_utils_invalid_request_body_createDateTime": "Invalid request body createDateTime.",
+        "http_utils_invalid_request_body_changeDateTime": "Invalid request body changeDateTime.",
+        "http_utils_invalid_request_origin": "Invalid request origin.",
+        "http_utils_invalid_request_destination": "Invalid request destination.",
+        "http_utils_invalid_request_autonomy": "Invalid request autonomy.",
+        "http_utils_invalid_request_pricePerLiter": "Invalid request pricePerLiter.",
+        "http_utils_invalid_request_body": "Invalid request body.",
+        "http_utils_invalid_request":"Invalid request parameters."
+    },
+    "messages": {
+        "route_not_found": "Route not found."
+    }
+}

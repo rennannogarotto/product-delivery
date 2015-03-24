@@ -1,0 +1,41 @@
+{
+  "name": "product-delivery",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Product Delivery",
+  "main": "server.js",
+
+  "scripts": {
+    "test": "grunt test",
+    "start": "./node_modules/.bin/nodemon ./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tunts/vopp-backoffice-backend"
+  },
+  "author": "",
+  "license": "ClosedSource",
+  "bugs": {
+    "url": "https://github.com/Tunts/vopp-backoffice-backend/issues"
+  },
+  "homepage": "https://github.com/Tunts/vopp-backoffice-backend",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.10.2",
+    "jshint": "^2.5.0",
+    "mocha": "^1.18.2",
+    "nodemon": "^1.0.17",
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "express": "^4.10.4",
+    "morgan": "^1.5.0",
+    "mongoose": "3.8.0",
+    "mongoose-validator": "^1.0.3",
+    "i18n": "^0.5.0",
+    "async": "~0.1.22",
+    "path": "0.11.14"
+  }
+}
